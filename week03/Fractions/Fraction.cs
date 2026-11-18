@@ -11,9 +11,9 @@ public class Fraction
     }
 
     // constructor with one parameter
-    public Fraction(int top)
+    public Fraction(int wholeNumber)
     {
-        _top = top;
+        _top = wholeNumber;
         _bottom = 1;
     }
 
