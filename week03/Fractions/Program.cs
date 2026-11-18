@@ -18,8 +18,8 @@ class Program
         Console.WriteLine(f3.GetBottom());
 
         // Test the setters
-        f3.SetTop(6);
-        f3.SetBottom(7);
+        f3.SetTop(3);
+        f3.SetBottom(4);
 
         Console.WriteLine("Testing setters");
 
@@ -41,12 +41,5 @@ class Program
         Console.WriteLine(f4.GetFractionString());
         Console.WriteLine(f4.GetDecimalValue());
 
-        // Test the setters again, Resetting f3 to 3/4
-        f3.SetTop(3);
-        f3.SetBottom(4);
-
-        Console.WriteLine("Testing setters again");
-        Console.WriteLine(f3.GetFractionString());
-        Console.WriteLine(f3.GetDecimalValue());
     }
 }
